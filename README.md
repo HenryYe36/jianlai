@@ -38,15 +38,45 @@
 - [说明文档](./剑来人物/齐静春/README.md)
 - [使用说明](./剑来人物/齐静春/HOW_TO_USE.md)
 
+### 2. 陈平安
+
+路径：[`剑来人物/陈平安`](./剑来人物/陈平安)
+
+定位：
+
+- 扛事者
+- 守诺者
+- 普通人长期积累的代表
+- 做人、做事、带人、立规矩的实践型人格
+
+适合分析的问题：
+
+- 答应过的事太重了，还该不该扛？
+- 普通人怎么靠吃苦和年头往前走？
+- 怎么在人情、钱、责任之间把账分清？
+- 怎么带晚辈、徒弟或团队？
+- 什么时候该硬顶，什么时候该收住？
+
+入口文档：
+
+- [说明文档](./剑来人物/陈平安/README.md)
+- [使用说明](./剑来人物/陈平安/HOW_TO_USE.md)
+
 ## 仓库结构
 
 ```text
 剑来人物/
 ├── README.md
-└── 齐静春/
+├── 齐静春/
+│   ├── README.md
+│   ├── HOW_TO_USE.md
+│   └── qi-jingchun-perspective/
+│       ├── SKILL.md
+│       └── references/
+└── 陈平安/
     ├── README.md
     ├── HOW_TO_USE.md
-    └── qi-jingchun-perspective/
+    └── chen-pingan-perspective/
         ├── SKILL.md
         └── references/
 ```
