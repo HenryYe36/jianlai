@@ -87,6 +87,7 @@ cp -R qi-jingchun-perspective ~/.codex/skills/
 - `SKILL.md`：主 Skill 文件，定义角色、工作流、模型、启发式、表达方式
 - `references/research/*.md`：调研与蒸馏依据
 - `references/sources/books/剑来-齐静春前段语料说明.md`：原始素材范围说明
+- `examples.md`：真实风格示例问答，便于先看输出效果
 
 ## 8. 如果你要继续扩展
 

@@ -43,7 +43,9 @@
 
 ## 使用入口
 
-详细见 [HOW_TO_USE.md](/Users/henry/Documents/剑来人物蒸馏/剑来人物/齐静春/HOW_TO_USE.md)。
+详细见 [HOW_TO_USE.md](./HOW_TO_USE.md)。
+
+如果你想先看实际效果，见 [examples.md](./examples.md)。
 
 ## 来源说明
 
@@ -61,7 +63,5 @@
 - 6 份研究文件
 - 本地语料来源说明
 - 使用说明文档
-
-未完成：
-
-- GitHub 仓库创建与推送，需要本机具备 GitHub 鉴权能力
+- 示例问答文档
+- GitHub 仓库整理与上传
