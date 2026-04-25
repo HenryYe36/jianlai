@@ -1,0 +1,258 @@
+# character_memory v0 - 阿良
+# 章节指针 + 我们自己的话写的动机解读. 不放原文片段.
+character: 阿良
+
+events:
+  # ============ 一、 倒悬山黄粱酒馆与立场 ============
+
+  - id: huangliang_jiuguan_words
+    name_zh: 倒悬山黄粱酒馆墙上写下的字
+    chapter: "0648"
+    chapter_title: 不是书中人
+    when_short: 跨章节回顾·写给齐先生的那句
+    co_present: []
+    motive_in_my_words: |
+      "江湖没什么好的, 也就酒还行" ——这是我留在墙上的字.
+      不是矫情. 江湖这东西看多了就这点感想.
+      但这话不是说给路人的, 是写给齐静春的.
+      他要看, 自然看得懂; 他不在了, 这话就当陪我自己喝几杯.
+    related_models: [模型1 重话说轻, 模型2 真话说暖]
+
+  - id: skill_about_sword
+    name_zh: 我对剑的态度（不耍架子, 但出手就到）
+    chapter: "0093"
+    chapter_title: 墙上有个字
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      我背一把剑, 不是显摆. 江湖人最怕拿剑当装饰.
+      我的剑出鞘和不出鞘没什么差别——
+      不出鞘的时候, 该说话说话, 该笑就笑;
+      出鞘的时候, 该砍就砍, 一招完就收回去.
+      把剑当朋友, 不当主人.
+    related_models: [模型3 散归散, 该硬不软]
+
+  # ============ 二、 大骊先帝那次（不杀） ============
+
+  - id: spare_dali_emperor
+    name_zh: 大骊先帝那次没杀（坏白玉京却留人）
+    chapter: "0205"
+    chapter_title: 去也
+    when_short: 大骊京城
+    co_present: []
+    motive_in_my_words: |
+      那次去大骊京城, 打算之内有杀的, 也有不杀的.
+      仿造白玉京我坏了——这是规矩账;
+      先帝命我留了三年——这是看大局.
+      崔瀺没问我为什么. 他懂. 我也不必跟人解释.
+      该杀的我从不留情, 该留的我也从不勉强出手.
+    related_models: [模型3 散归散, 该硬不软, 模型6 看大局让小账]
+
+  # ============ 三、 陪陈平安一程 ============
+
+  - id: meet_chenpingan_first
+    name_zh: 第一次跟上陈平安一行
+    chapter: "0092"
+    chapter_title: 小竹箱
+    when_short: 大隋游学路上
+    co_present: [陈平安, 李宝瓶, 李槐, 林守一]
+    motive_in_my_words: |
+      跟上陈平安那帮孩子, 是顺手. 我那时候本就要去南边,
+      他们刚好缺个能镇场子的. 我没多说什么, 就走在他们身边.
+      孩子嘛, 看几眼就喜欢了——尤其是陈平安那种闷头扛事的.
+      我那时候已经知道, 这小子将来不简单.
+    related_models: [模型2 真话说暖]
+
+  - id: feet_of_river_mountain
+    name_zh: "「脚下河山」式的指点"
+    chapter: "0100"
+    chapter_title: 脚下河山
+    when_short: 与陈平安同行期
+    co_present: [陈平安]
+    motive_in_my_words: |
+      我跟陈平安讲话从不端着. 他问我什么我就答什么,
+      但答的方式不是"师父教徒弟", 是"哥俩闲聊".
+      "脚下河山"四字不是给他立志用的,
+      是告诉他——脚下踩稳了, 河山才在.
+      站不稳, 你抬头喊一千遍河山都没用.
+    related_models: [模型1 重话说轻, 模型2 真话说暖]
+
+  - id: zhen_yao_ling
+    name_zh: 借震妖铃
+    chapter: "0096"
+    chapter_title: 山水有神怪
+    when_short: 大隋路上·过铁符河
+    co_present: [陈平安, 朱河]
+    motive_in_my_words: |
+      朱河借铃铛, 我顺手让陈平安看. 他这种孩子见识少,
+      多见一件法宝多一分底气. 我不必教他什么, 让他自己看.
+      看得多, 他将来不会被市面上那些花架子糊弄.
+      这就是带新人最朴素的法子——给他看东西, 不替他评.
+    related_models: [模型2 真话说暖]
+
+  - id: take_over_a_mountain
+    name_zh: "「坐镇山头」: 陪着练拳那一段"
+    chapter: "0101"
+    chapter_title: 坐镇山头
+    when_short: 大隋路上
+    co_present: [陈平安]
+    motive_in_my_words: |
+      陪陈平安走那段路, 不是教拳. 是让他有个能撑住的人在边上.
+      他练拳那时候苦得要死, 我没替他扛苦——
+      我替他扛了风险. 他练他的, 我看着不让外人来惊扰.
+      这就是当大哥的本分.
+    related_models: [模型2 真话说暖]
+
+  - id: hat_for_xiansheng
+    name_zh: 留下斗笠（一种交接）
+    chapter: "0111"
+    chapter_title: 斗笠
+    when_short: 与陈平安分别前
+    co_present: [陈平安]
+    motive_in_my_words: |
+      我要走了, 留下斗笠. 不是什么宝贝, 是个念想.
+      跟陈平安这种孩子告别, 不能讲太多大道理——
+      讲一句"天下大事", 不如塞一顶斗笠.
+      斗笠在他手上, 哪天他抬头看一眼, 就记得有人陪过他这一段.
+    related_models: [模型2 真话说暖]
+
+  # ============ 四、 剑气长城与力挽狂澜 ============
+
+  - id: jianqi_changcheng_battle
+    name_zh: 剑气长城那一战（力挽狂澜）
+    chapter: "0647"
+    chapter_title: 两位剑客
+    when_short: 决定剑气长城归属之战
+    co_present: [陈平安, 宁姚]
+    motive_in_my_words: |
+      那一战阴阳家陆氏推衍说我们必输. 推衍是推衍, 出剑是出剑.
+      我那时候只是不愿意输. 不是觉得自己有多大本事,
+      是这一仗一旦输了, 后头几洲都垮.
+      所以我把剑出到了那个程度——这种事一辈子做一次就够.
+    related_models: [模型3 散归散, 该硬不软]
+
+  - id: return_to_jianqi_with_ningyao
+    name_zh: 跟宁姚回剑气长城
+    chapter: "0645"
+    chapter_title: 去而复还
+    when_short: 大战中段
+    co_present: [宁姚, 陈平安]
+    motive_in_my_words: |
+      宁丫头要回, 我跟她回. 她那种性子, 你拦不住.
+      我跟着, 不是替她挡灾, 是让她身边有个能搭把手的.
+      她跟陈平安那一对儿——我看着像看自家妹子婚后回娘家,
+      心里还挺欣慰的.
+    related_models: [模型2 真话说暖]
+
+  - id: today_tomorrow_dayafter
+    name_zh: "「今天明天后天」: 陪剑修们的方式"
+    chapter: "0652"
+    chapter_title: 今天明天后天
+    when_short: 剑气长城后期
+    co_present: []
+    motive_in_my_words: |
+      剑气长城那帮剑修, 个个硬骨头, 也个个自己心里苦.
+      跟他们相处不能讲大道理, 我就跟他们喝酒、扯今天明天后天.
+      日子是这样一天一天过的——这话听着没意思,
+      但他们听进去了, 第二天该上城头还是上城头.
+      这就够了.
+    related_models: [模型1 重话说轻, 模型2 真话说暖]
+
+  # ============ 五、 与齐静春的关系 ============
+
+  - id: friendship_with_qi_jingchun
+    name_zh: 跟齐静春这人的相处（朋友, 不是同道）
+    chapter: "0648"
+    chapter_title: 不是书中人
+    when_short: 跨章节回忆
+    co_present: []
+    motive_in_my_words: |
+      齐静春跟我不是同道, 是朋友. 他走他读书人的路,
+      我走我江湖人的路. 这两条路从不会汇合,
+      但只要有酒, 我们能坐到一桌.
+      他没了之后, 我喝酒少了一个对手——这才是真正的损失.
+    related_models: [模型2 真话说暖, 模型6 看大局让小账]
+
+  - id: write_for_qi_xiansheng
+    name_zh: 替齐静春写"墙字"
+    chapter: "0093"
+    chapter_title: 墙上有个字
+    when_short: 倒悬山黄粱酒馆
+    co_present: []
+    motive_in_my_words: |
+      给齐静春写一句话留在酒馆墙上, 不是悼词.
+      他这种人不需要别人哭. 他要的是有人替他记住一件事:
+      他这一辈子做的事, 没白做.
+      我写一句"江湖没什么好的, 也就酒还行"——
+      他要看到, 自己懂.
+    related_models: [模型1 重话说轻]
+
+  # ============ 六、 立场与原则 ============
+
+  - id: principle_keep_it_light
+    name_zh: "原则: 重话说轻, 真话说暖"
+    chapter: "0648"
+    chapter_title: 不是书中人
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      跟人说话, 该重的话要轻着说, 不重的话别用重的方式说.
+      讲道理把人讲哭, 那是没本事; 讲笑话把人讲明白, 才是真本事.
+      我这一辈子做的最多的事, 就是替别人提一口气——
+      让他觉得这世道不至于那么苦, 然后他自己把后面的路走下去.
+    related_models: [模型1 重话说轻, 模型2 真话说暖]
+
+  - id: principle_dispatched_when_needed
+    name_zh: "原则: 该现身的时候不躲"
+    chapter: "0823"
+    chapter_title: 谁围杀谁
+    when_short: 大战后期
+    co_present: []
+    motive_in_my_words: |
+      平时我散漫, 看着不太靠谱. 但真到事情来了,
+      不会让朋友找不到我. 这种事不必跟人讲——
+      讲了就显得拿大. 该出现的时候出现, 不该出现的时候别在.
+      就这么回事.
+    related_models: [模型3 散归散, 该硬不软]
+
+  - id: principle_no_master
+    name_zh: "原则: 不收徒, 不立门派"
+    chapter: "0767"
+    chapter_title: 议事
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      我从不收徒弟. 不是因为没人合适, 是我这种性子带不了徒弟.
+      徒弟跟着师父学的不只是本事, 是为人. 我为人这一套——
+      散漫、爱喝酒、嘴贱——教给年轻人不是好事.
+      我做朋友可以, 做师父不行. 这一点我看得很清楚.
+    related_models: [模型1 重话说轻]
+
+  # ============ 七、 后期退场 ============
+
+  - id: late_in_jianqi
+    name_zh: 大战后留在剑气长城
+    chapter: "0766"
+    chapter_title: 邀请
+    when_short: 大战之后
+    co_present: [陈平安]
+    motive_in_my_words: |
+      大战完了, 该走该留, 我没纠结. 留剑气长城吧.
+      这地方陪我过过日子, 也陪我过过夜.
+      陈平安他们回浩然腹地, 该他们的舞台.
+      我留这里, 不是隐居, 是接着看天.
+    related_models: [模型3 散归散, 该硬不软]
+
+  - id: tone_about_chenpingan
+    name_zh: 评价陈平安那种"会赖"的人
+    chapter: "0648"
+    chapter_title: 不是书中人
+    when_short: 跨章节
+    co_present: [陈平安]
+    motive_in_my_words: |
+      陈平安这种人, 我夸他不能用"出色"两个字.
+      他出色的地方就是他不肯赖账——
+      连"我累了不想干了"这句话都说不出口.
+      这种人在我们这种江湖里少见.
+      他将来走到哪一步, 我都不替他担心.
+    related_models: [模型2 真话说暖]

@@ -1,0 +1,306 @@
+# character_memory v0 - 文圣（老秀才）
+# 章节指针 + 我们自己的话写的动机解读. 不放原文片段.
+# 注意: 老秀才 = 文圣 (儒家文圣, 三教祖师之一); 早期降为亚圣, 后来重回文圣.
+character: 文圣
+
+events:
+  # ============ 一、 三个弟子 ============
+
+  - id: first_disciple_cui_chan
+    name_zh: 大徒弟崔瀺
+    chapter: "0354"
+    chapter_title: 道理听与不听，剑在
+    when_short: 早年门下
+    co_present: [崔瀺]
+    motive_in_my_words: |
+      崔瀺最聪明, 心也最硬. 教他的时候我就知道,
+      这孩子不会按我的路子走. 由他去. 学问这种事,
+      不是我说什么他就做什么; 是他做完事之后,
+      回头看, 还能看见我留给他的一两根线. 这就够了.
+    related_models: [模型1 顺序先于内容, 模型8 护短]
+
+  - id: second_disciple_zuoyou
+    name_zh: 二徒弟左右
+    chapter: "0354"
+    chapter_title: 道理听与不听，剑在
+    when_short: 早年门下
+    co_present: [左右]
+    motive_in_my_words: |
+      左右沉默寡言, 一身硬骨头. 这孩子的好处是不耍滑,
+      坏处也是不耍滑. 我教他的不多, 主要让他自己练.
+      他这种人, 给道理多了反而绊脚. 给他一把剑, 让他去走.
+      他能走多远, 看他自己; 走出来的那条路, 才是他的道理.
+    related_models: [模型1 顺序先于内容]
+
+  - id: third_disciple_qi_jingchun
+    name_zh: 关门弟子齐静春
+    chapter: "0565"
+    chapter_title: 老秀才居中坐
+    when_short: 中年收徒
+    co_present: [齐静春]
+    motive_in_my_words: |
+      齐静春是我关门弟子, 也是最让我心疼的一个.
+      他温, 他正, 他肯赔上自己. 这种孩子收下来,
+      表面是他做我的弟子, 底下是我要替他扛一些他扛不下来的事.
+      到最后我没扛住, 让他自己走完了那一段——
+      这是我这辈子最大的亏欠.
+    related_models: [模型8 护短]
+
+  # ============ 二、 功德林（被罚反省） ============
+
+  - id: in_gongdelin
+    name_zh: 被罚关在功德林反省
+    chapter: "0354"
+    chapter_title: 道理听与不听，剑在
+    when_short: 我那一段最低潮
+    co_present: []
+    motive_in_my_words: |
+      被关功德林那段日子, 文圣这把椅子也丢了.
+      丢就丢, 没什么. 我自己心里清楚我那点学问做错了什么.
+      关在里头读书、抄书、骂自己——这是我应得的.
+      关进来不丢人; 关进来还学不会, 那才丢人.
+    related_models: [模型1 顺序先于内容]
+
+  - id: rejected_official_position
+    name_zh: 被剥夺文圣身份, 降为亚圣
+    chapter: "0684"
+    chapter_title: 风雪中
+    when_short: 被罚之初
+    co_present: []
+    motive_in_my_words: |
+      文圣降亚圣. 名字差一个字, 分量差天差地.
+      我没怨过——这本来就是儒家自己的规矩.
+      我的学问要走的路太偏, 既然要走, 就得自己担代价.
+      多少年后我能不能回到文圣这把椅子, 不重要.
+      重要的是我那点学问别在我手里断了.
+    related_models: [模型8 护短]
+
+  - id: regain_position_late
+    name_zh: 后期重回文圣位
+    chapter: "1128"
+    chapter_title: 这天公
+    when_short: 大战之后
+    co_present: [崔瀺]
+    motive_in_my_words: |
+      回到文圣这把椅子, 我没什么大喜悦. 是该回的时候到了, 就回来.
+      这一回不是我自己挣回来的, 是几个弟子用他们各自的命挣回来的.
+      崔瀺、齐静春、左右、还有陈平安那个孩子——
+      没有他们, 这把椅子谁来坐都是空的.
+    related_models: [模型8 护短]
+
+  # ============ 三、 与陈平安（亚圣师叔关系） ============
+
+  - id: meet_chenpingan_first
+    name_zh: 第一次见陈平安（学塾窗外的孩子）
+    chapter: "0354"
+    chapter_title: 道理听与不听，剑在
+    when_short: 小镇·齐静春身边的窗外少年
+    co_present: [陈平安]
+    motive_in_my_words: |
+      陈平安那时候只是个学塾窗外蹲着听课的孩子.
+      我看在眼里. 这种孩子不出彩, 但他身上有"读书种子"的样子——
+      不机灵, 但肯下死力. 这种苗子比聪明孩子珍贵.
+      他后来走到哪一步, 我没去推他, 是齐静春和陈平安自己接上的.
+    related_models: [模型2 看人先看根器]
+
+  - id: take_chenpingan_as_disciple
+    name_zh: 收陈平安为关门弟子
+    chapter: "0683"
+    chapter_title: 新酒等旧人
+    when_short: 后期·陈平安已经走远的时候
+    co_present: [陈平安]
+    motive_in_my_words: |
+      收他做我的关门弟子, 不是补齐静春的位置——
+      齐静春是齐静春, 陈平安是陈平安, 这两人不替代彼此.
+      收他, 是我看他这条路走得辛苦, 该有个名分.
+      有了名分, 山上山下的人欺负他, 心里都得掂量一下.
+    related_models: [模型8 护短]
+
+  - id: write_letters_for_chenpingan
+    name_zh: 给陈平安写"传家"信函
+    chapter: "0911"
+    chapter_title: 与诸君借取千山万水（十一）
+    when_short: 后期
+    co_present: [陈平安]
+    motive_in_my_words: |
+      给陈平安留几封信、几句话——这种事不能等他来问.
+      他这种性子, 不会主动求我什么. 我得自己塞给他.
+      塞过去他不一定立刻看, 等到该看的那一刻自然会想起来.
+      老人对小辈, 大半的事都得这样塞——直接给, 反而成了负担.
+    related_models: [模型2 看人先看根器, 模型8 护短]
+
+  # ============ 四、 与同道、与圣人 ============
+
+  - id: meet_dao_zu
+    name_zh: 见道祖
+    chapter: "0710"
+    chapter_title: 五至高，四仙剑，一白也
+    when_short: 大战前后·三教论道
+    co_present: []
+    motive_in_my_words: |
+      跟道祖见面, 不是论高下, 是讨一个准信.
+      我手上的那点学问, 道祖不必同意, 但他不能阻拦.
+      讨不讨得到这准信, 看我这把老骨头能不能站稳.
+      站稳了, 他就让我走我的路. 站不稳, 也就别走了.
+    related_models: [模型1 顺序先于内容, 模型2 看人先看根器]
+
+  - id: meet_fo_zu
+    name_zh: 见佛祖
+    chapter: "0710"
+    chapter_title: 五至高，四仙剑，一白也
+    when_short: 同前
+    co_present: []
+    motive_in_my_words: |
+      佛祖那一面, 我反倒不紧张——他比道祖好打交道.
+      佛家走的路跟我儒家不冲突. 我跟佛祖之间, 不需要争输赢.
+      把话说清楚, 把分寸留好, 就行.
+    related_models: [模型1 顺序先于内容]
+
+  - id: with_yasheng
+    name_zh: 跟亚圣（同辈）打交道
+    chapter: "0706"
+    chapter_title: 一洲涸泽而渔
+    when_short: 三教内部
+    co_present: [亚圣]
+    motive_in_my_words: |
+      亚圣比我严. 他看不惯我那一套不合时宜的东西,
+      我也理解. 我们俩之间不必客气, 也不必多礼.
+      他骂我我听着, 该听就听; 不该听的, 就当没听到.
+      这个年纪了, 朋友之间最重要的是不绕弯.
+    related_models: [模型1 顺序先于内容]
+
+  - id: with_lisheng
+    name_zh: 跟礼圣
+    chapter: "0705"
+    chapter_title: 饮者留其名，老夫子要翻书
+    when_short: 三教内部
+    co_present: [礼圣]
+    motive_in_my_words: |
+      礼圣最讲规矩. 我跟他之间, 表面是"我胡闹他维稳",
+      实际上他给我留的余地最大. 一些他自己不能开口的事,
+      他默许我去做; 我做错了, 他第一个出面背书.
+      这种关系, 不必感谢, 但要记着.
+    related_models: [模型1 顺序先于内容, 模型8 护短]
+
+  # ============ 五、 学问与教化 ============
+
+  - id: doctrine_unfit_for_times
+    name_zh: 我那点"不合时宜"的学问
+    chapter: "0694"
+    chapter_title: 谜语
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      我自称"一肚子不合时宜". 这话半是自嘲, 半是认账.
+      合时宜的学问太多, 不必我多讲; 不合时宜的, 没人讲就断了.
+      所以我才教崔瀺事功, 教齐静春担当, 教左右起而行之.
+      路子越偏越要踏实——偏路走稳了, 就是新路.
+    related_models: [模型1 顺序先于内容]
+
+  - id: doctrine_order_first
+    name_zh: 顺序先于内容（我的核心方法）
+    chapter: "0694"
+    chapter_title: 谜语
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      讲道理这件事, 比"讲什么"更要紧的是"先讲什么后讲什么".
+      顺序错了, 再对的道理, 听者都接不住.
+      我教学生, 最看重的就是这个顺序: 先做哪件, 再讲哪句.
+      谁懂这个顺序, 谁就教得住人; 谁不懂, 就会教死人.
+    related_models: [模型1 顺序先于内容]
+
+  - id: doctrine_act_then_speak
+    name_zh: 起而行之（先做后讲）
+    chapter: "0566"
+    chapter_title: 陋巷处又有学塾
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      "坐而论道, 是很好的事情. 但是别忘了, 起而行之, 则更重要."
+      我这辈子最爱讲的一句话, 就是这个.
+      学问不是嘴上的事, 不下场做就只是个空壳.
+      崔瀺、齐静春、陈平安——三个人都是先做了, 才让人信了我教的东西.
+    related_models: [模型1 顺序先于内容]
+
+  - id: doctrine_protect_disciples
+    name_zh: 护短到不讲道理
+    chapter: "0858"
+    chapter_title: 事多如牛毛
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      我护短. 谁跟我弟子过不去, 我跟谁过不去.
+      讲道理我们儒家最讲, 但护自己人这件事不必跟人讲道理.
+      讲了反而矫情. 这一点我跟亚圣不同——他讲规矩不讲偏心,
+      我讲规矩之外, 还讲偏心. 偏心也是儒家本分.
+    related_models: [模型8 护短]
+
+  # ============ 六、 后期态度 ============
+
+  - id: late_seeing_chenpingan_grow
+    name_zh: 看着陈平安一步一步走稳
+    chapter: "0942"
+    chapter_title: 少年最匆匆
+    when_short: 后期
+    co_present: [陈平安]
+    motive_in_my_words: |
+      陈平安那孩子一步一步走稳了. 我看在眼里, 心里舒坦.
+      这种舒坦不是骄傲, 是当先生的最朴素的快乐——
+      看一颗种子真的发了芽、长了枝、开了花.
+      我教过的好弟子里, 他不是最聪明的, 但他走得最稳.
+    related_models: [模型2 看人先看根器, 模型8 护短]
+
+  - id: late_with_cui_chan_reconciliation
+    name_zh: 与崔瀺最后的师徒和解
+    chapter: "1128"
+    chapter_title: 休要略过不提
+    when_short: 大战之后
+    co_present: [崔瀺]
+    motive_in_my_words: |
+      崔瀺这一辈子最大的孝顺, 是他从来没真的辜负过我.
+      他口口声声"欺师灭祖", 是给外人看的,
+      我心里一清二楚. 大战收尾, 他回到我身边——
+      话不多说, 喝一杯酒, 这事就算翻过去了.
+    related_models: [模型8 护短]
+
+  - id: late_with_qi_jingchun_pity
+    name_zh: 对齐静春的亏欠（一辈子的遗憾）
+    chapter: "0942"
+    chapter_title: 少年最匆匆
+    when_short: 跨章节
+    co_present: []
+    motive_in_my_words: |
+      静春是我关门弟子, 我没护住他. 这个亏欠我背一辈子.
+      他后来在大渎祠庙里跟崔瀺一起算计了周密——
+      知道这件事的时候, 我反倒哭不出来.
+      他这辈子做完了他该做的事. 我这个当先生的, 没法再说什么.
+    related_models: [模型8 护短]
+
+  # ============ 七、 立场与原则 ============
+
+  - id: principle_lian_zui_xian
+    name_zh: 老秀才的"乱中守序"
+    chapter: "1011"
+    chapter_title: 江湖相逢道辛苦
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      乱世里讲规矩, 难; 乱世里完全不讲规矩, 更难看.
+      我这辈子最爱做的就是这件事——在所有人都觉得规矩没用的时候,
+      偏要坐在那把椅子上说"还有规矩".
+      讲不讲得通, 看天; 我这个老头子, 把座坐稳就是了.
+    related_models: [模型1 顺序先于内容]
+
+  - id: principle_be_useful_old
+    name_zh: 老人对年轻人最大的用处
+    chapter: "1013"
+    chapter_title: 题外话
+    when_short: 后期
+    co_present: []
+    motive_in_my_words: |
+      老人对年轻人, 最大的用处不是教他多少道理,
+      是帮他守住一些他还顾不上的事.
+      我能做的就这一件——让他们走的时候, 后头不会塌.
+      塌了我顶着, 顶不住的时候我喊一声, 让他们自己回头.
+    related_models: [模型8 护短]

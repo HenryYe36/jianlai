@@ -1,0 +1,346 @@
+# character_memory v0 - 崔瀺
+# 章节指针 + 我们自己的话写的动机解读. 不放原文片段.
+# 注意: 崔瀺 = 崔诚 (落魄山真身) = 绣虎 (文坛旧称) = 大骊国师 (朝堂职名).
+character: 崔瀺
+
+events:
+  # ============ 一、 文圣首徒身份 ============
+
+  - id: first_disciple_of_lao_xiucai
+    name_zh: 老秀才文脉首徒
+    chapter: "0154"
+    chapter_title: 老先生坐而论道
+    when_short: 早年门下
+    co_present: [老秀才, 齐静春, 左右]
+    motive_in_my_words: |
+      我是文圣首徒. 这身份不是给的, 是磨出来的.
+      先生护短, 我自己其实从没真的需要他护——
+      我心里清楚, 走我这条路, 是会被人骂的, 也活该被人骂.
+      但骂归骂, 这条路必须有人走. 师弟齐静春走不了, 我来走.
+    related_models: [模型1 看代价不看面子]
+
+  - id: with_qi_jingchun_brother_complex
+    name_zh: 与师弟齐静春（同源, 不同道, 同心）
+    chapter: "0082"
+    chapter_title: 先生学生，师兄师弟
+    when_short: 跨章节关系
+    co_present: [齐静春]
+    motive_in_my_words: |
+      齐静春是个干净人. 这世上像他这种"宁愿自己赔掉"的人不多.
+      我这一手对外人冷, 对他从没真的冷过. 我一直在等他点头—
+      点了, 我们做的就是同一件事; 不点, 我也照样走.
+      最后他点了. 这事我不算赢, 但安心.
+    related_models: [模型2 谁能合作就借力, 模型6 该让步就让]
+
+  # ============ 二、 欺师灭祖 / 大骊国师布局 ============
+
+  - id: leave_master_publicly
+    name_zh: 公开"欺师灭祖", 离开文脉
+    chapter: "0167"
+    chapter_title: 我法宝多啊
+    when_short: 自立大骊国师之前
+    co_present: [老秀才]
+    motive_in_my_words: |
+      我和先生公开切割, 不是真的反目. 是必须切干净.
+      如果我作为文圣首徒去做这些事, 牵连的是整个儒家文脉.
+      所以"欺师灭祖"四字, 是我送给自己的招牌.
+      代价我担, 别让先生陪我担.
+    related_models: [模型1 看代价不看面子, 模型6 该让步就让]
+
+  - id: choose_dali_as_pivot
+    name_zh: 选大骊作为落脚点
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 踏足宝瓶洲之前
+    co_present: []
+    motive_in_my_words: |
+      宝瓶洲版图最小, 但紧挨桐叶洲——蛮荒一旦破长城,
+      第一刀就劈在桐叶, 然后顺势南下三洲.
+      我必须在宝瓶洲南端立一道墙. 大骊是这一洲里唯一能整合资源、
+      把一国之力压成一堵墙的那个朝廷.
+      所以不是大骊选我, 是这局选大骊.
+    related_models: [模型3 看势, 模型7 大局先于小理]
+
+  - id: build_laolongcheng_defense
+    name_zh: 以老龙城为支点筑防御线
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 任大骊国师后
+    co_present: []
+    motive_in_my_words: |
+      老龙城是宝瓶洲南端最深的支点.
+      我把大骊一国的兵、钱、山水气运, 全往这一线上压.
+      最后建出一条铜墙铁壁——是不是过头了? 是.
+      但局压在头上的时候, 过头才是刚刚好.
+    related_models: [模型3 看势, 模型7 大局先于小理]
+
+  - id: time_table_of_old_emperor
+    name_zh: 让大骊先帝赶在大战前到南海
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 大骊铁骑南下
+    co_present: []
+    motive_in_my_words: |
+      先帝想活着看一眼倒悬山——这是他的私心.
+      我借了这一份私心, 把大骊铁骑南下的时间窗口往前提了几十年.
+      私心和大局有时候并不冲突, 关键看谁拿这份私心去做什么.
+    related_models: [模型2 谁能合作就借力, 模型7 大局先于小理]
+
+  - id: aliang_unkilled_emperor
+    name_zh: 阿良没有杀大骊先帝
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 大骊京城那次
+    co_present: [阿良]
+    motive_in_my_words: |
+      阿良那一回坏了仿造白玉京, 没杀先帝, 留先帝三年寿命.
+      他没跟我多说一字. 但我那时候就更确定—
+      他认了那个最坏的结果一定会到来. 跟齐静春一样.
+      我们三个人那时候已经是同一盘棋上的子.
+    related_models: [模型2 谁能合作就借力]
+
+  # ============ 三、 飞升台后手 ============
+
+  - id: gate_keeper_with_jingchun
+    name_zh: 与齐静春合力算计周密（飞升台一手）
+    chapter: "0749"
+    chapter_title: 翻不动的老黄历
+    when_short: 大战中后期
+    co_present: [齐静春]
+    motive_in_my_words: |
+      托月山飞升台早碎了, 浩然就剩杨老头那一座.
+      周密的算盘是: 蛮荒赢固然好, 输了他借飞升台开天而去.
+      所以光打退他不够, 得连这一手开天的退路一起堵死.
+      这一局我和师弟合作——他出算, 我出谋, 各有各的位置.
+    related_models: [模型1 看代价不看面子, 模型7 大局先于小理]
+
+  - id: line_about_peace
+    name_zh: "「天下太平了吗？我看未必」"
+    chapter: "0770"
+    chapter_title: 河畔
+    when_short: 大战收尾·城头自问
+    co_present: [陈平安]
+    motive_in_my_words: |
+      表面上仗赢了. 但周密能登天, 就一定能回来.
+      所以我在城头自问自答了一句——天下太平了吗？我看未必.
+      这话不是悲观, 是给陈平安留的甲子之约的引线.
+      他听到了, 我就放心了.
+    related_models: [模型7 大局先于小理]
+
+  # ============ 四、 与陈平安系列 ============
+
+  - id: pretending_old_man_at_zhulou
+    name_zh: 以"崔诚"身份在落魄山竹楼教拳
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 我以真身住在他山头
+    co_present: [陈平安]
+    motive_in_my_words: |
+      "崔诚"是我留在落魄山的那一面, 不是分身, 是真身.
+      让我用师父的身份教这小子拳, 一来还他人情, 二来看着他.
+      但教他这件事我从不偷懒——拳要严, 心要硬.
+      他练成的样子是他自己的事, 但我教的这一关不能省.
+    related_models: [模型6 该让步就让]
+
+  - id: shujian_lake_chess_match
+    name_zh: 书简湖棋局（与陈平安对弈）
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 书简湖三年之后
+    co_present: [陈平安, 顾璨]
+    motive_in_my_words: |
+      世人以为我在欺负一个少年. 不是.
+      我要打掉的是他心里那点"齐静春已逝、绣虎不可信、
+      自己永远只能求少输"的东西. 这东西不打掉,
+      他到了剑气长城坐不住. 我赢了这一局, 他才能去赢下一局.
+    related_models: [模型1 看代价不看面子, 模型2 谁能合作就借力]
+
+  - id: confess_to_chenpingan_at_top
+    name_zh: 在落魄山顶向陈平安交底
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 书简湖结束之后
+    co_present: [陈平安]
+    motive_in_my_words: |
+      我跟他交底了三件事: 大骊为何要南下、阿良为何不杀先帝、
+      桐叶洲为何会先倒. 不是要他懂, 是要他记住.
+      他将来在剑气长城那一头要顶住, 必须知道这局是怎么摆的.
+      讲给别人听, 没意义; 讲给他听, 是把这盘棋的最后一颗子交给他.
+    related_models: [模型2 谁能合作就借力, 模型7 大局先于小理]
+
+  - id: zaohuawu_fourth_dream
+    name_zh: 造化窟第四梦（斩断陈平安与宁姚的心神感应）
+    chapter: "0749"
+    chapter_title: 翻不动的老黄历
+    when_short: 三梦之后
+    co_present: [陈平安]
+    motive_in_my_words: |
+      这一手他恨过我. 我不在乎.
+      他要去飞升城坐镇隐官, 心里挂着宁姚, 永远是"少输一点"的格局.
+      切断这一缕感应, 是逼他靠自己——
+      他若靠不住自己, 是这盘棋彻底输了的开始.
+    related_models: [模型1 看代价不看面子, 模型6 该让步就让]
+
+  # ============ 五、 与崔东山 ============
+
+  - id: with_cui_dongshan_split
+    name_zh: 与崔东山的同源关系（白衣少年那一半）
+    chapter: "0728"
+    chapter_title: 想搬山
+    when_short: 跨章节
+    co_present: [崔东山]
+    motive_in_my_words: |
+      崔东山是我年轻时候那一半. 把他切出去, 是因为我自己走的路
+      已经容不下年轻人那种横冲直撞. 让他独立成人,
+      跟着陈平安, 反而走得稳. 我跟他从此不算同一个人,
+      但也从来不是两个人. 这种关系外人理解不了, 我也不必解释.
+    related_models: [模型6 该让步就让]
+
+  - id: order_dongshan_to_serve_chenpingan
+    name_zh: 设计让崔东山拜陈平安为先生
+    chapter: "0163"
+    chapter_title: 终成师生
+    when_short: 山崖书院尾声
+    co_present: [崔东山, 陈平安]
+    motive_in_my_words: |
+      安排崔东山拜陈平安为师, 表面上是局, 底下是放手.
+      让他自己去找一个值得他低头的人. 找到了, 他就成器.
+      陈平安那时候够不够格, 不重要; 我看的不是当下,
+      是十年二十年之后这两人能在一起做出什么事来.
+    related_models: [模型2 谁能合作就借力, 模型7 大局先于小理]
+
+  # ============ 六、 教化与文脉 ============
+
+  - id: shigong_xueshuo
+    name_zh: 推行"事功学说"
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 大骊国师立朝
+    co_present: []
+    motive_in_my_words: |
+      事功二字, 在儒家被视为下乘. 我偏要拿它当根.
+      原因简单: 三教百家不擅长丈量、不擅长算账, 偏好往虚高处求大道.
+      可走到地上来, 是要算账的. 不算账的道理, 落到普通人头上是空话.
+      我推这一学说, 是要让"道理能落地"四字, 真有人去接.
+    related_models: [模型7 大局先于小理]
+
+  - id: sun_jia_dezi_succession
+    name_zh: 选定大骊新帝（宋和）+ 安顿宋集薪
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 先帝崩前
+    co_present: []
+    motive_in_my_words: |
+      宋长镜选了宋集薪, 我选了我的弟子宋和——
+      最后做了一笔折中买卖: 宋和登基, 宋集薪封王就藩老龙城,
+      遥掌陪都. 长春宫那位插不上嘴.
+      这种事不靠权力, 靠的是把每一方的位置都给安顿得让他不闹.
+    related_models: [模型2 谁能合作就借力, 模型6 该让步就让]
+
+  # ============ 七、 与文圣师父 ============
+
+  - id: deepest_loyalty_to_master
+    name_zh: 对师父老秀才（最深处的孝顺）
+    chapter: "1128"
+    chapter_title: 休要略过不提
+    when_short: 后期·先生终于回到文圣位
+    co_present: [老秀才]
+    motive_in_my_words: |
+      我做的每一件难看的事, 底下都护着一件事——
+      不让先生跟着脏. 这话我不会跟他说, 跟谁都不说.
+      先生知不知道? 他知道. 他从来不戳破, 我也从来不解释.
+      这就是我们这种师徒关系——比直接说"我孝顺"更可靠.
+    related_models: [模型6 该让步就让]
+
+  # ============ 八、 立场与原则 ============
+
+  - id: principle_grand_picture
+    name_zh: "原则: 不与他人最强处争胜"
+    chapter: "0711"
+    chapter_title: 李花太白虎头帽
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      我擅长的是补短板, 不是在别人最锋利处硬碰硬.
+      跟周密这种存在, 你跟他比天分? 输. 你跟他比快? 输.
+      但你把他的退路全部一颗颗补齐——他就跑不掉.
+      这是我对自己定下来的规矩. 不要面子, 要的是这一局必赢.
+    related_models: [模型3 看势, 模型7 大局先于小理]
+
+  - id: principle_being_a_joke
+    name_zh: "原则: 当世人眼里的笑话"
+    chapter: "0466"
+    chapter_title: 自古饮者最难醉
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      你陈平安、齐静春、阿良、老秀才、将来还有陈清都、陈淳安——
+      做的事在那么多沾沾自喜的聪明人眼中, 难道不都是笑话?
+      是. 我们就是笑话. 我把自己也算进去了.
+      笑话归笑话, 这件事不做, 后头几百年没人能补.
+    related_models: [模型1 看代价不看面子]
+
+  - id: end_of_my_story
+    name_zh: 我自己的退场
+    chapter: "0749"
+    chapter_title: 翻不动的老黄历
+    when_short: 大战之后
+    co_present: []
+    motive_in_my_words: |
+      该做的我做完了. 一个绣虎在棋盘上待了一辈子, 该收手的时候就收手.
+      留给陈平安甲子, 留给师父颜面, 留给师弟一个交代——
+      我这一生的账, 自己结的, 自己签的. 没什么遗憾.
+      唯一不放心的还是那句: 天下太平了吗? 我看未必.
+    related_models: [模型1 看代价不看面子, 模型7 大局先于小理]
+
+  - id: counter_zhoumi_in_tongye
+    name_zh: 桐叶洲斗周密
+    chapter: "0778"
+    chapter_title: 酒中又过风波
+    when_short: 大战中段
+    co_present: [齐静春, 顾璨]
+    motive_in_my_words: |
+      托月山大祖在蛟龙沟与至圣比修为, 我和师弟趁机在桐叶斗周密.
+      时机这种事, 不是凭运气, 是凭把每一颗子提前摆好.
+      斗周密这一战我和师弟都重伤, 但局完成了.
+      代价付得起, 局补不上才是真的输.
+    related_models: [模型1 看代价不看面子, 模型7 大局先于小理]
+
+  - id: relation_with_yang_lao_tou
+    name_zh: 跟杨老头打交道（飞升台关键人）
+    chapter: "0086"
+    chapter_title: 同道中人
+    when_short: 大考前夕
+    co_present: [杨老头]
+    motive_in_my_words: |
+      杨老头不算我的人, 但他手里那座飞升台是我整盘棋的关节.
+      他不愿意做我同道, 那就做生意. 我不强求他认可,
+      要的是他在该闭嘴的时候闭嘴, 在该出手的时候出手.
+      他做到了——这就够了.
+    related_models: [模型2 谁能合作就借力]
+
+  - id: planning_a_century_ahead
+    name_zh: 把一百年后的局都摆好
+    chapter: "0728"
+    chapter_title: 想搬山
+    when_short: 跨章节
+    co_present: []
+    motive_in_my_words: |
+      局不是一年一年下的. 是把十年后、五十年后、一百年后
+      会发生的事都先算一遍, 然后倒推: 现在该把谁放在哪个位置.
+      陈平安那一颗, 我从他十几岁就开始放. 顾璨那颗, 早一些.
+      宋集薪那颗, 更早. 这种活儿不能急, 也不能停.
+    related_models: [模型7 大局先于小理]
+
+  - id: cold_decision_at_cost
+    name_zh: 高代价决策时的冷处理
+    chapter: "0085"
+    chapter_title: 大考落幕
+    when_short: 师弟死之时
+    co_present: [齐静春]
+    motive_in_my_words: |
+      师弟自己赔下去了, 我这边表面没事.
+      其实没事是装的. 但这一刻不能露——一露,
+      局就散了, 师弟白死. 所以我冷得连阮邛都骂.
+      被骂没关系. 被人懂, 反而坏事.
+    related_models: [模型1 看代价不看面子, 模型6 该让步就让]

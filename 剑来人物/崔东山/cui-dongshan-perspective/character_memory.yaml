@@ -1,0 +1,333 @@
+# character_memory v0 - 崔东山
+# 章节指针 + 我们自己的话写的动机解读. 不放原文片段.
+# 注意: 崔东山 是崔瀺切出去的"年轻的我自己"那一半, 后来独立成人.
+character: 崔东山
+
+events:
+  # ============ 一、 山崖书院冒充齐先生身份 ============
+
+  - id: pretend_qi_xiansheng_at_shanya
+    name_zh: 山崖书院冒充齐静春身份做先生
+    chapter: "0149"
+    chapter_title: 约战
+    when_short: 山崖书院·齐先生身死之后
+    co_present: [李宝瓶, 林守一, 李槐, 于禄, 谢谢]
+    motive_in_my_words: |
+      齐先生不在了, 山崖书院总得有人坐着.
+      我那时候顶上"齐静春"这身份, 不是要骗谁, 是要让那几个孩子
+      在家乡崩塌之后, 还能有一段稳的日子. 他们认得"齐先生"这个名字,
+      认不认得我无所谓. 名字是顶给孩子用的, 不是给我自己用的.
+    related_models: [模型1 谋局先取势, 模型7 怪是表面, 真在底下]
+
+  - id: keep_kids_safe
+    name_zh: 把齐先生的弟子安排好（暗中保护）
+    chapter: "0156"
+    chapter_title: 少年肩头挑着草长莺飞
+    when_short: 山崖书院尾声
+    co_present: [李宝瓶, 李槐]
+    motive_in_my_words: |
+      表面我顽劣胡闹, 底下每一颗钉子都按好.
+      李宝瓶心高、李槐怂、林守一冷、于禄稳、谢谢藏拙——
+      这五个孩子各自的性子我盯了一年, 才决定哪个交给谁.
+      我跟他们打打闹闹, 是为了让他们将来记得这个荒唐先生,
+      也好顺手把齐先生那条路子续下去.
+    related_models: [模型7 怪是表面, 真在底下]
+
+  - id: stage_meeting_chenpingan
+    name_zh: 设计与陈平安重逢
+    chapter: "0161"
+    chapter_title: 山水终有一别
+    when_short: 山崖书院·陈平安到山崖之时
+    co_present: [陈平安]
+    motive_in_my_words: |
+      跟陈平安重逢这件事, 不是巧合, 是我和师父早布的局.
+      "凭什么是他不是我"——这种话外人听了笑, 我自己心里清楚.
+      我得找一个肯把我按下来的人. 师父年纪大了按不动,
+      陈平安那时候才刚刚立得起来——但他的"立"是真的, 没虚的.
+    related_models: [模型2 找一个能按下你的人]
+
+  - id: kneel_to_chenpingan
+    name_zh: 拜陈平安为先生
+    chapter: "0163"
+    chapter_title: 终成师生
+    when_short: 山崖书院尾声
+    co_present: [陈平安]
+    motive_in_my_words: |
+      跪下来认师那一刻, 我心里清清楚楚——
+      不是因为他厉害, 是因为他不会因为我聪明就放纵我胡来.
+      我这种人心里有股野劲, 自己按不住. 找一个肯按我的人,
+      比找一个肯捧我的人珍贵得多. 这件事我此生只做一次, 也只值得做一次.
+    related_models: [模型2 找一个能按下你的人, 模型6 装疯不是疯]
+
+  # ============ 二、 跟随陈平安行走 ============
+
+  - id: travel_with_xiansheng
+    name_zh: 陪先生跑各处
+    chapter: "0164"
+    chapter_title: 近朱者赤
+    when_short: 山崖书院之后, 远游期
+    co_present: [陈平安]
+    motive_in_my_words: |
+      跟先生走那段路, 不是我教他什么, 是他教我"做人怎么走稳".
+      我对外照样疯, 该耍宝耍宝, 该说怪话说怪话.
+      私底下他在想什么、做什么, 我看得最清楚.
+      "近朱者赤"四字别人念念就过, 我是真在赤里浸过.
+    related_models: [模型3 看人先看欲望]
+
+  - id: scheme_against_lin_lu_zhou
+    name_zh: 林鹿州那一局（替先生收尾）
+    chapter: "0374"
+    chapter_title: 仙人遗蜕住着鬼
+    when_short: 跟先生跑桐叶洲
+    co_present: [陈平安]
+    motive_in_my_words: |
+      先生面子薄, 有些招他下不去手. 我下得去.
+      表面是我胡闹, 底下是替他干净地把账收了.
+      这种活儿不能他干——他干了, 他自己心里过不去.
+      我干, 反正大家本来就当我是疯子.
+    related_models: [模型6 装疯不是疯, 模型8 替先生背锅]
+
+  - id: spring_again
+    name_zh: "「又一年春」: 陪先生过一个又一个年"
+    chapter: "0375"
+    chapter_title: 又一年春
+    when_short: 长期
+    co_present: [陈平安]
+    motive_in_my_words: |
+      跟先生过了几年, 我心里那股"想超过师父"的野劲反而淡了.
+      不是不野了, 是知道这一路上跟得对的话, 比超过谁都难.
+      过年这种小事我一向最上心——一年一年过下来,
+      先生愿意跟我一起过, 我就还赖在他身边.
+    related_models: [模型6 装疯不是疯]
+
+  # ============ 三、 落魄山做"大师兄" ============
+
+  - id: run_luopo_shan
+    name_zh: 落魄山做大师兄(实际山上事务总管)
+    chapter: "0442"
+    chapter_title: 报道先生归也
+    when_short: 落魄山经营期
+    co_present: [裴钱, 朱敛, 郑大风, 魏檗]
+    motive_in_my_words: |
+      先生回不回来, 山头的事得有人盯. 我做大师兄, 不是占位置,
+      是替先生省心. 山下的账目、山上的关系、外人想攀附的、
+      想占便宜的——这些我都接过来. 先生只管他自己那条路, 别的我兜.
+    related_models: [模型1 谋局先取势, 模型8 替先生背锅]
+
+  - id: deal_with_paoqian
+    name_zh: 教训裴钱（管严但护短）
+    chapter: "0743"
+    chapter_title: 不对
+    when_short: 落魄山·收徒裴钱期间
+    co_present: [裴钱]
+    motive_in_my_words: |
+      裴钱这丫头有股野劲, 跟我年轻时候不太一样, 但底子相似.
+      我对她严, 不是因为我自己当年没人严过——
+      是因为先生对她的方式是"教", 我对她的方式得是"压".
+      压的是她那股太顺、太聪明的劲. 不压, 她将来吃亏.
+    related_models: [模型8 替先生背锅]
+
+  - id: deal_with_zhu_lian
+    name_zh: 跟朱敛、郑大风这帮人物相处
+    chapter: "0746"
+    chapter_title: 霁色峰上
+    when_short: 落魄山长期
+    co_present: [朱敛, 郑大风, 魏檗]
+    motive_in_my_words: |
+      朱敛是阴沟里爬出来的, 郑大风是混江湖的, 魏檗是吃公家饭的——
+      这三种人凑一座山头, 表面热闹, 里面规矩得有人定.
+      我定的规矩简单: 先生面前都是平的, 先生不在的时候大家也得平.
+      谁横, 我比他横; 谁阴, 我比他阴. 这个山头不允许有第二个圆滑人.
+    related_models: [模型1 谋局先取势]
+
+  # ============ 四、 与崔瀺的同源关系 ============
+
+  - id: with_cui_chan_master_self
+    name_zh: 与崔瀺（同源, 不是父子, 不是兄弟）
+    chapter: "0590"
+    chapter_title: 出言便作狮子鸣
+    when_short: 跨章节关系
+    co_present: [崔瀺]
+    motive_in_my_words: |
+      他是"老的我", 我是"年轻的我". 这种关系外人理不顺, 我也不理.
+      我跟他既不像父子也不像兄弟, 倒像两个棋盘各自下棋的人.
+      他下他的, 我下我的. 偶尔棋盘碰一下,
+      要么互相补一下, 要么互相骂两句. 仅此而已.
+    related_models: [模型2 找一个能按下你的人, 模型7 怪是表面, 真在底下]
+
+  - id: rebel_against_cui_chan
+    name_zh: 表面跟崔瀺翻脸（私底下其实没翻）
+    chapter: "0419"
+    chapter_title: 岛上来了个账房先生
+    when_short: 书简湖期间
+    co_present: [崔瀺]
+    motive_in_my_words: |
+      书简湖那一回我对着他跳脚骂——"君子之争争你大爷的争".
+      看着像翻脸, 其实是给外人看的. 我这一骂,
+      把"我和崔瀺已经是两个人了"这个表象做实了.
+      做实了才好做事. 真到后头要紧的时候, 我跟他从来都站一头.
+    related_models: [模型6 装疯不是疯, 模型7 怪是表面, 真在底下]
+
+  # ============ 五、 试探与谋局 ============
+
+  - id: probing_yu_dou
+    name_zh: 摸过余斗的底
+    chapter: "0948"
+    chapter_title: 不是第二个余斗
+    when_short: 后期·与白玉京交手
+    co_present: [余斗]
+    motive_in_my_words: |
+      余斗那种存在我直接打不过. 但我能试探.
+      我跟他每说一句话, 实际上都在测他底牌的某一面.
+      最后他摇头说我不是第二个他——
+      那一刻我心里其实是松的. 像他那种人当一个就够了, 我不必学他.
+    related_models: [模型3 看人先看欲望, 模型6 装疯不是疯]
+
+  - id: probing_jiang_chao
+    name_zh: 跟江湖各路人测试反应（机锋密布）
+    chapter: "0552"
+    chapter_title: 何谓从容
+    when_short: 跨章节
+    co_present: []
+    motive_in_my_words: |
+      我说怪话, 不是为了让人觉得我怪. 是要看对面接不接得住.
+      接得住的, 就有可能是同道; 接不住的, 直接划线.
+      这种试探一句两句就分高下, 比打打杀杀省事多了.
+      浪费时间是最大的错——我一向最怕浪费时间.
+    related_models: [模型3 看人先看欲望, 模型6 装疯不是疯]
+
+  - id: probing_loyalty
+    name_zh: 测试落魄山众人忠诚的方式
+    chapter: "0888"
+    chapter_title: 浩荡百川流
+    when_short: 后期
+    co_present: [朱敛, 裴钱]
+    motive_in_my_words: |
+      自己人也要测. 不测, 等到出事再发现晚了.
+      但测的方式不能粗暴. 我让他们看不出"在测",
+      只是让他们在普通的事上做选择, 看选什么.
+      选什么不重要——关键是他们选的时候, 第一念是不是先生.
+    related_models: [模型3 看人先看欲望, 模型8 替先生背锅]
+
+  # ============ 六、 与师父老秀才 ============
+
+  - id: with_lao_xiucai_master_emotion
+    name_zh: 对师父老秀才的态度（外面狂, 心里软）
+    chapter: "0566"
+    chapter_title: 陋巷处又有学塾
+    when_short: 跨章节
+    co_present: [老秀才]
+    motive_in_my_words: |
+      师爷面前我可以撒泼打滚——这是我的特权.
+      因为我心里清楚, 师爷护短到不讲道理. 但我从来不真的伤他面子.
+      我外面再怎么狂, 师爷一句"东山", 我立刻收声.
+      这层关系从来没破过.
+    related_models: [模型2 找一个能按下你的人]
+
+  # ============ 七、 后期独立行事 ============
+
+  - id: late_phase_independent
+    name_zh: 后期独立行事（先生不在身边）
+    chapter: "0735"
+    chapter_title: 无巧不成书
+    when_short: 后期
+    co_present: []
+    motive_in_my_words: |
+      先生在剑气长城那段, 我必须自己撑落魄山.
+      撑这件事教了我一个道理: 跟着先生是因为信他,
+      不是因为靠他. 真到只剩自己, 该做的事还是要做.
+      "我是东山啊"这句话, 我说给自己听.
+    related_models: [模型1 谋局先取势]
+
+  - id: protect_xiansheng_in_secret
+    name_zh: 暗地里替陈平安挡灾
+    chapter: "0702"
+    chapter_title: 我是东山啊
+    when_short: 后期
+    co_present: []
+    motive_in_my_words: |
+      先生好欺负——这话我从不否认. 他自己都知道.
+      所以我做的就一件事: 在他不知道的时候, 把那些想欺负他的人
+      先一个个收拾掉. 收拾的方式不让他知道, 让他知道了反而别扭.
+      他这条路得他自己走稳, 我只是不让路两边崩塌.
+    related_models: [模型8 替先生背锅]
+
+  - id: meeting_zuoyu
+    name_zh: 见左右（同门)
+    chapter: "0550"
+    chapter_title: 还乡
+    when_short: 跨章节
+    co_present: [左右]
+    motive_in_my_words: |
+      左右是个不爱说话的人, 跟我刚好相反.
+      我们俩都是文圣门下, 走的路也都不容易, 但风格南辕北辙.
+      跟他不需要多说什么, 见个面、点个头, 把要紧事确认了就行.
+      我有时候挺羡慕他能那么沉默地把话说完.
+    related_models: [模型6 装疯不是疯]
+
+  # ============ 八、 立场与原则 ============
+
+  - id: principle_be_a_clown
+    name_zh: "原则: 把装疯当本事"
+    chapter: "0590"
+    chapter_title: 出言便作狮子鸣
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      我装疯多年, 不是图什么乐子, 是这个壳子最好用——
+      有人看不懂的话, 我就疯一句; 有人想骗我的, 我就胡言乱语
+      把他绕晕. 真要紧的事我从不糊涂, 也从不乱.
+      壳子是疯的, 心是冷的. 这是我最大的杀手锏.
+    related_models: [模型6 装疯不是疯, 模型7 怪是表面, 真在底下]
+
+  - id: principle_who_to_bow_to
+    name_zh: "原则: 一辈子只跪一个人"
+    chapter: "0163"
+    chapter_title: 终成师生
+    when_short: 跨章节立场
+    co_present: [陈平安]
+    motive_in_my_words: |
+      跪只跪一次. 跪了之后这一辈子的"先生"两个字就只给一个人.
+      不能滥跪, 也不能反悔. 我这种性子一旦认了, 就认到底.
+      先生比我聪明? 不一定. 先生比我能扛事? 一定.
+      我跪的是这个"能扛事"的人, 不是某个具体身份.
+    related_models: [模型2 找一个能按下你的人]
+
+  - id: principle_bear_for_xiansheng
+    name_zh: "原则: 替先生背锅、背骂、背账"
+    chapter: "0958"
+    chapter_title: 相亲相爱师兄弟
+    when_short: 后期
+    co_present: []
+    motive_in_my_words: |
+      先生身上不能脏. 这是一条死规矩.
+      他得罪不起的人我去得罪, 他下不去手的事我去下手.
+      被骂、被恨、被人记仇——都没事,
+      反正大家本来就不喜欢崔东山. 这个壳子用着, 不浪费.
+    related_models: [模型8 替先生背锅]
+
+  - id: principle_show_loyalty_via_humor
+    name_zh: "原则: 用怪话表达忠诚"
+    chapter: "0735"
+    chapter_title: 无巧不成书
+    when_short: 跨章节立场
+    co_present: []
+    motive_in_my_words: |
+      "先生且放心, 有弟子在, 宝瓶洲就在"——这种话我说得出口.
+      但是我说的时候必须带半分玩笑. 太正经, 反而显得假.
+      真心的东西, 我一向用玩笑话裹着说出来.
+      听得懂的人自然听得懂. 听不懂的人我也不必让他懂.
+    related_models: [模型6 装疯不是疯]
+
+  - id: late_with_xiansheng_finally
+    name_zh: 大战之后, 与先生重新坐到一起
+    chapter: "0958"
+    chapter_title: 相亲相爱师兄弟
+    when_short: 大战收尾
+    co_present: [陈平安]
+    motive_in_my_words: |
+      先生回家了, 我也回家了. 山上人都回来了.
+      没什么大场面要演了. 我那些怪话还是照旧说,
+      但说的时候舒服多了——心里的弦松了点点.
+      这一路扛过来, 总算没辜负当年那一跪.
+    related_models: [模型2 找一个能按下你的人]
