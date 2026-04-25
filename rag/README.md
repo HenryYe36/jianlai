@@ -12,10 +12,15 @@
 
 | 模式 | 触发 | 能答粗粒度 | 能答细粒度 | 用户成本 |
 |---|---|---|---|---|
-| **轻量记忆模式** | 默认（无原文） | ✓ 用 `character_memory.yaml` | ✗ 引导用户 setup | 0 |
+| **轻量记忆模式** | 默认（无原文） | ✓ 用 `character_memory.yaml` + `events/*.yaml` | ✗ 引导用户 setup | 0 |
 | **全量取证模式** | 跑过 `setup.sh` | ✓ | ✓ grep 原文 + 引证 | 5 分钟 |
 
-每个角色 skill 包里都带一份 `character_memory.yaml`——**不是原文片段、是人物事件指针 + 用我们自己的话写的动机摘要**（合理使用范畴）。即装即用，能回答粗粒度问题。
+轻量模式下的两层粗粒度记忆：
+
+1. **每角色一份** `character_memory.yaml` (在角色 skill 包里): 该角色出场的关键事件指针 + 我们自己的话写的动机摘要.
+2. **18 个事件级 yaml** (`events/01-小镇押注.yaml` ... `events/18-天地通.yaml`): 围绕重要事件/地点的"起因/经过/结果/参与人员/每人立场+内心想法"——包含本人之外的角色视角, 对跨人物问题尤其有用.
+
+两层都不是原文片段, 是合理使用范畴的二次创作. 即装即用, 能回答粗粒度问题.
 
 需要细粒度（具体原话、章节内细节）的用户，跑一次根目录的 `setup.sh /path/to/novel.txt`，5 分钟内全切片完成 → Skill 自动切到全量取证模式。
 
@@ -180,10 +185,16 @@ rag/
     ├── split_chapters.py             章节切分
     ├── scan_role_scenes.py           角色场景扫描（单 pass 多角色）
     ├── aliases.py                    角色别名单一事实源
-    └── validate_memory.py            character_memory.yaml 校验器
+    ├── validate_memory.py            character_memory.yaml 校验器
+    └── validate_event.py             events/*.yaml 校验器
 剑来人物/{角色}/{role}-perspective/
-├── SKILL.md                          已植入双模式启动检测 + Step 0 取证铁律
-└── character_memory.yaml             轻量模式记忆库（仅陈平安已完成，其他角色 TBD）
+├── SKILL.md                          已植入双模式启动检测 + Step 0 取证铁律 + 事件级记忆指引
+└── character_memory.yaml             轻量模式记忆库（6 个角色全覆盖）
+events/                               # 18 个事件/地点级别的粗粒度记忆
+├── 01-小镇押注.yaml
+├── 02-本命瓷.yaml
+├── ...
+└── 18-天地通.yaml
 ```
 
 运行后会在仓库根产生（**不入版本控制**，因涉及原文版权）：
