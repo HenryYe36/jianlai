@@ -1,0 +1,13 @@
+# 原文及派生品 (版权): 不入版本控制
+corpus/
+roles/
+
+# 用户自动留档 qa_log: 是用户本地数据
+**/qa_log/
+
+# 编辑器/系统垃圾
+.DS_Store
+*.pyc
+__pycache__/
+.idea/
+.vscode/
